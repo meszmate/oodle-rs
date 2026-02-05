@@ -2,10 +2,11 @@
 name = "oodle"
 repository = "https://github.com/meszmate/oodle-rs"
 description = "Oodle wrapper for rust"
-version = "0.1.2"
+version = "0.2.0"
 edition = "2024"
 license = "MIT"
 keywords = ["oodle", "compression"]
+categories = ["compression", "external-ffi-bindings"]
 
 [dependencies]
-libloading = "0.7"
+libloading = "0.8"
